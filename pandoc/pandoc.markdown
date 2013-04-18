@@ -1,3 +1,19 @@
+前言
+--------
+這份文件是 [Pandoc][] 版本 Markdown 語法的中文翻譯。Pandoc 本身是文件轉換工具，可以在 HTML, Markdown, PDF, TeX...等等格式之間進行轉換。有許多喜歡純文字編輯的人，利用 Pandoc 來進行論文的撰寫或投影片製作。但除了轉換的功能外，Pandoc 所定義的 Markdown 擴充語法也是這套工具的一大亮點，在 Pandoc 的官方使用說明文件中，光是其針對 Markdown 格式的擴充就佔了整整一半左右的篇幅。 
+
+本文件翻譯自 [Pandoc - Pandoc User’s Guide][userguide] 中的 "Pandoc's markdown" 一節。你可以看看[這份文件的原始檔][source]、產生文件[所使用的 HTML 範本][template]，以及[轉換時的命令參數][script]。
+
+[pandoc]: http://johnmacfarlane.net/pandoc/
+[userguide]: http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown
+[source]: https://raw.github.com/tzengyuxio/pages/gh-pages/pandoc/pandoc.markdown
+[template]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/pm-template.html5
+[script]: https://github.com/tzengyuxio/pages/blob/gh-pages/pandoc/convert.sh
+
+以下翻譯開始。
+
+----
+
 Pandoc's markdown
 =================
 
@@ -11,7 +27,7 @@ Markdown 是針對易於書寫與閱讀的目標而設計的，特別是在易�
 > 一份 Markdown 格式的文件應該要能以純文字形式直接發表，並且一眼看過去不存在任何標記用的標籤或格式指令。
 > <small>[John Gruber](http://daringfireball.net/projects/markdown/syntax#philosophy)</small>
 
-這項原則同樣也是 pandoc 在制定表格、腳註以及其他擴充的語法時，所依循的規範。
+這項原則同樣也是 pandoc 在制訂表格、腳註以及其他擴充的語法時，所依循的規範。
 
 然而，pandoc 的目標與原始 markdown 的最初目標有著方向性的不同。在 markdown 原本的設計中，HTML 是其主要輸出對象；然而 pandoc 則是針對多種輸出格式而設計。因此，雖然 pandoc 同樣也允許直接嵌入 HTML 標籤，但並不鼓勵這樣的作法，取而代之的是 pandoc 提供了許多非 HTML 的方式，來讓使用者輸入像是定義清單、表格、數學公式以及腳註等諸如此類的重要文件元素。
 
