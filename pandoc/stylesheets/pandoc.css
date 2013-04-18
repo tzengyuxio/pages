@@ -1,0 +1,92 @@
+body {
+    font-size:16px;
+    line-height:24px;
+}
+
+.sidebar-nav-fixed {
+    position:fixed;
+    top:20px;
+    width:16.48%;
+    /*width:auto;*/
+}
+
+@media (max-width: 767px) {
+    .sidebar-nav-fixed {
+        width:auto;
+    }
+}
+
+@media (max-width: 979px) {
+    .sidebar-nav-fixed {
+        position:static;
+        width:auto;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    background: none;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    padding-top: .5em;
+    padding-bottom: .17em;
+}
+
+h1 {
+    font-size:32px;
+    border-bottom: 4px double #aaa;
+}
+
+h2 {
+    font-size:24px;
+    border-bottom: 1px solid #aaa;
+}
+
+h3 {
+    font-size:21px;
+}
+
+h1, h2 {
+    margin-bottom:.6em;
+    line-height:1.1em;
+}
+
+h3, h4, h5 {
+    margin-bottom:.3em;
+}
+
+#TOC > ul {
+    margin:0;
+}
+
+#TOC > ul > li {
+    font-size:18px;
+    line-height:27px;
+    list-style-type:none;
+}
+
+#TOC > ul > li > ul > li {
+    font-size:18px;
+    line-height:27px;
+}
+
+#TOC > ul > li > ul > li > ul {
+    display:none;
+}
+
+/*blockquote {*/
+    /*margin-right:10%;*/
+/*}*/
+
+blockquote > p {
+    font-size:16px;
+}
+
+.table {
+    width:auto;
+}
+
+sup, sub {
+    line-height: 1em;
+}
