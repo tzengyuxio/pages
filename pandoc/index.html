@@ -6,7 +6,7 @@
   <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-  <link href="./stylesheets/pandoc.css" rel="stylesheet">
+  <link href="/stylesheets/pandoc.css" rel="stylesheet">
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -138,7 +138,7 @@ My other header   {#foo}
 <li>如果剩下為空字串，則使用 <code>section</code> 作為 ID。</li>
 </ul>
 <p>以下是一些範例，</p>
-<table>
+<table class="table table-bordered table-condensed">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Header</th>
@@ -796,7 +796,7 @@ note.]</code></pre>
 <h2 id="引用"><a href="#引用">引用</a></h2>
 <p><strong>Extension: <code>citations</code></strong></p>
 <p>Pandoc 能夠以數種形式自動產生引用與參考書目（使用 Andrea Rossato 的 <code>hs-citeproc</code>）。為了使用這項功能，你需要一個下列其中一種格式的參考書目資料庫：</p>
-<table>
+<table class="table table-bordered table-condensed">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Format</th>
@@ -883,7 +883,21 @@ Blah blah [@smith04; @doe99].</code></pre>
 <li id="fn5"><p>這項功能尚未在 RTF, OpenDocument 或 ODT 格式上實現。在這些格式中，你會得到一個在段落中只包含自己的圖片，而無圖片說明。<a href="#fnref5">↩</a></p></li>
 </ol>
 </section>
+<!-- disqus begin -->
+<div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'tzyxpages'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
+<!-- disqus end -->
 </div><!--/row-->
 </div><!--/container-->
 </body>
