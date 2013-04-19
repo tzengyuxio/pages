@@ -6,3 +6,5 @@ do
     fout=${fout/\.markdown/.html}   # extension
     pandoc $fin -t html5 -o $fout --toc --smart --standalone --template=template
 done
+
+pandoc README.md -o index.html --standalone
