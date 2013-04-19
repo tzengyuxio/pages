@@ -1,12 +1,16 @@
 body {
     font-size:16px;
     line-height:24px;
+    margin:0 auto;
+    max-width:56em;
+    padding:1rem;
 }
 
 .sidebar-nav-fixed {
     position:fixed;
     top:20px;
-    width:16.48%;
+    /*width:16.48%;*/
+    width:10em;
 }
 
 @media (max-width: 767px) {
@@ -66,16 +70,18 @@ h3, h4, h5 {
 }
 
 #TOC > ul > li > ul > li {
-    font-size:18px;
-    line-height:27px;
+    font-size:16px;
+    line-height:24px;
 }
 
-#TOC > ul > li > ul > li > ul {
-    display:none;
+#TOC > ul > li > ul > li > ul > li {
+    font-size:14px;
+    line-height:21px;
 }
 
 blockquote > p {
     font-size:16px;
+    margin:0 0 12px;
 }
 
 .table {
