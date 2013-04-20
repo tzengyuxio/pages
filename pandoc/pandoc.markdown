@@ -1,9 +1,13 @@
+% Pandoc's Markdown 語法中文翻譯
+% Translated by [Tzeng Yuxio](http://tzengyuxio.me)
+
 前言
 --------
-這份文件是 [Pandoc][] 版本 Markdown 語法的中文翻譯。Pandoc 本身是文件轉換工具，可以在 HTML, Markdown, PDF, TeX...等等格式之間進行轉換。有許多喜歡純文字編輯的人，利用 Pandoc 來進行論文的撰寫或投影片製作。但除了轉換的功能外，Pandoc 所定義的 Markdown 擴充語法也是這套工具的一大亮點，在 Pandoc 的官方使用說明文件中，光是其針對 Markdown 格式的擴充就佔了整整一半左右的篇幅。 
+這份文件是 [Pandoc][] 版本 Markdown 語法的中文翻譯。Pandoc 本身是由 [John MacFarlane][] 所開發的文件轉換工具，可以在 HTML, Markdown, PDF, TeX...等等格式之間進行轉換。有許多喜歡純文字編輯的人，利用 Pandoc 來進行論文的撰寫或投影片製作。但除了轉換的功能外，Pandoc 所定義的 Markdown 擴充語法也是這套工具的一大亮點，在 Pandoc 的官方使用說明文件中，光是其針對 Markdown 格式的擴充就佔了整整一半左右的篇幅。 
 
 本文件翻譯自 [Pandoc - Pandoc User’s Guide][userguide] 中的 "Pandoc's markdown" 一節。你可以看看[這份文件的原始檔][source]、產生文件[所使用的 HTML 範本][template]，以及[轉換時的命令參數][script]。
 
+[John MacFarlane]: http://johnmacfarlane.net/
 [pandoc]: http://johnmacfarlane.net/pandoc/
 [userguide]: http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown
 [source]: https://raw.github.com/tzengyuxio/pages/gh-pages/pandoc/pandoc.markdown
