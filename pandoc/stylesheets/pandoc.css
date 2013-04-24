@@ -5,7 +5,7 @@ body {
 
 .sidebar-nav-fixed {
     position:fixed;
-    top:20px;
+    top:84px;
     width:16.48%;
 }
 
@@ -60,14 +60,14 @@ h3, h4, h5 {
 }
 
 #TOC > ul > li {
-    font-size:18px;
-    line-height:27px;
+    font-size:16px;
+    line-height:24px;
     list-style-type:none;
 }
 
 #TOC > ul > li > ul > li {
-    font-size:18px;
-    line-height:27px;
+    font-size:16px;
+    line-height:24px;
 }
 
 #TOC > ul > li > ul > li > ul {
@@ -84,4 +84,53 @@ blockquote > p {
 
 sup, sub {
     line-height: 1em;
+}
+
+header {
+    position:static;
+    width:100%;
+    overflow:visible;
+    display:block;
+
+
+    background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    background-repeat: repeat-x;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1), 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color:#555555;
+    border-bottom:0;
+    font-size:20px;
+    width:940px;
+    padding: .5em;
+    margin-bottom:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav li:focus {
+    background-color:#EEEEEE;
+}
+
+nav a:hover {
+    text-decoration:none;
+}
+
+.title > a {
+    color:#555555;
+}
+
+.title a:hover {
+    text-decoration:none;
+}
+
+.container-fluid {
+    width:940px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 2em 0 4em 0;
 }

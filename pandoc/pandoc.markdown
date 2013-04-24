@@ -1,5 +1,7 @@
-% Pandoc's Markdown 語法中文翻譯
+% [Pandoc's Markdown 語法中文翻譯][home]
 % Translated by [Tzeng Yuxio](http://tzengyuxio.me)
+
+[home]: http://pages.tzengyuxio.me/pandoc/
 
 前言
 --------
