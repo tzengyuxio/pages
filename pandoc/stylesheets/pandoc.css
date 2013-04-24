@@ -22,6 +22,15 @@ body {
     }
 }
 
+@media (min-width: 980px) {
+    .title {
+        width:940px;
+    }
+    .container-fluid {
+        width:940px;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
     background: none;
@@ -105,7 +114,6 @@ header {
     color:#555555;
     border-bottom:0;
     font-size:20px;
-    width:940px;
     padding: .5em;
     margin-bottom:0;
     margin-left:auto;
@@ -129,7 +137,6 @@ nav a:hover {
 }
 
 .container-fluid {
-    width:940px;
     margin-left:auto;
     margin-right:auto;
     padding: 2em 0 4em 0;
